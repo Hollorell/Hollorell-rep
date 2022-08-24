@@ -1,0 +1,37 @@
+.acc {
+    background-color: #0040b8;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px;
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.active,
+.acc:hover {
+    background-color: #000000;
+}
+
+.acc:after {
+    content: '\002B';
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.content {
+    padding: 0 18px;
+    color: #212121;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
