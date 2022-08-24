@@ -8,10 +8,20 @@
     <link rel="stylesheet" href="styles_accordion.css">
     <link rel="stylesheet" href="styles_toast.css">
     <link rel="stylesheet" href="styles_alert.css">
+    <link rel="stylesheet" href="styles_menu.css">
 </head>
 
 <body>
     <div class="body">
+        <div class="dropdown">
+            <button onclick="show_hide()" class="dropbtn">m</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            <script src="script_menu.js"></script>
+        </div>
         <h1 class="switch">Элемент switch</h1>
         <div class="switch">
             <input type="checkbox" id="switch"><label for="switch">Toggle</label>
