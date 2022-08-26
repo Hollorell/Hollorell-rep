@@ -14,9 +14,9 @@
 
 <body>
     <div class="body">
-        <div class="dropdown">
-            <button onclick="show_hide()" class="dropbtn">m</button>
-            <div id="myDropdown" class="dropdown-content">
+        <div class="drop">
+            <button onclick="show_hide()" class="dropbtn">M</button>
+            <div id="Drop" class="drop-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
@@ -60,22 +60,23 @@
             <button class="aletrbtn" id="alertbtn">Вызвать Alert</button>
             <script src="script_alert.js"></script>
         </div>
-        <section class="s-wrapper">
-            <button class="s-arrow" id="s-arrow-prev">
-                &#8249;
-            </button>
-            <button class="s-arrow" id="s-arrow-next">
-                &#8250;
-            </button>
-            <ul class="s-cont" id="scont">
-                <li class="slide"></li>
-                <li class="slide"></li>
-                <li class="slide"></li>
-                <li class="slide"></li>
-            </ul>
-        </section>
-        <script src="script_carousel.js"></script>
     </div>
+    <h1 class="switch">Элемент carousel</h1>
+    <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+            &#8249;
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next">
+            &#8250;
+        </button>
+        <ul class="slides-container" id="slides-container">
+            <img src="assets/img_5.jpg" class="slide">
+            <img src="assets/img_3.jpg" class="slide">
+            <img src="assets/img_4.jpg" class="slide">
+            <img src="assets/img_1.jpg" class="slide">
+        </ul>
+    </section>
+    <script src="script_carousel.js"></script>
 </body>
 
 </html>
